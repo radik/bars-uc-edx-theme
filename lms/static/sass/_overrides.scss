@@ -10,16 +10,22 @@
     }
 }
 
-.wrapper-footer footer#footer-openedx {
+.wrapper-footer {
+    footer#footer-openedx {
+        .colophon .nav-colophon li a {
+            color: white;
+        }
 
-    .colophon .nav-colophon li a {
-        color: white;
+        .copyright {
+            color: #ffffff;
+        }
+        
+        .wrapper-logo{
+            img {
+                height: 70px;
+            }
+        }
     }
-
-    .copyright {
-        color: #ffffff;
-    }
-
 }
 
 
@@ -71,6 +77,13 @@
                 .main-cta {
                     span.register, span.add-to-cart {
                         border: 0px;
+                    }
+                    a.register {
+                        text-shadow: 0px 0px;
+                        border: 0px;
+                        background-image: none;
+                        background: $uxpl-blue-base;
+                        box-shadow: 0px 0px;
                     }
                     strong {
                         text-shadow: 0px 0px;
