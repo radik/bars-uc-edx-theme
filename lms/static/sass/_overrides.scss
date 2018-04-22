@@ -1,0 +1,93 @@
+.header-global {
+    height: 100px;
+
+    .nav-courseware {
+        margin-top: 10px;
+    }
+
+    .nav-global {
+        margin-top: 18px;
+    }
+}
+
+.wrapper-footer footer#footer-openedx {
+
+    .colophon .nav-colophon li a {
+        color: white;
+    }
+
+    .copyright {
+        color: #ffffff;
+    }
+
+}
+
+
+.wrapper-header {
+    .logo {
+        img {
+            height: 70px;
+        }
+    }
+}
+
+.find-courses {
+    .courses{
+        .course {
+            box-shadow: 0px 0px;
+            background: white;
+            border: 0px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+    }
+}
+
+// _course_about.scss
+.course-info {
+
+    .course-profile {
+        height: auto;
+    }
+
+    header.course-profile{
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .intro-inner-wrapper {
+            border: 0px;
+            box-shadow: 0px 0px;
+
+            .media .hero {
+                border: 0px;
+
+                img {
+                    max-height: 180px;
+                }
+            }
+
+            .intro {
+                .main-cta {
+                    span.register, span.add-to-cart {
+                        border: 0px;
+                    }
+                    strong {
+                        text-shadow: 0px 0px;
+                        border: 0px;
+                        background-image: none;
+                        background: $uxpl-blue-base;
+                        box-shadow: 0px 0px;
+                    }
+                    strong:hover {
+                        text-shadow: 0px 0px;
+                        border: 0px;
+                        background-image: none;
+                        background: $uxpl-blue-base;
+                        box-shadow: 0px 0px;
+                    }
+                }
+            }
+        }
+    }
+}
