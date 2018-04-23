@@ -222,8 +222,8 @@ ${HTML(fragment.foot_html())}
                 </main>
             </td>
             <td style="width: 40%">
-                % if course_outline:
-                  ${HTML(course_outline.body_html())}
+                % if outline_fragment:
+                  ${HTML(outline_fragment.body_html())}
                 % endif
             </td>
           </tr>
