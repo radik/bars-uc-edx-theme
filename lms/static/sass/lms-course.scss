@@ -3,11 +3,11 @@
 div.info-wrapper {
     section.handouts {
         width: flex-grid(5);
+    }
+}
 
-        .course-outline {
-            li {
-                list-style: none;
-            }
-        }
+.course-outline {
+    li {
+        list-style: none;
     }
 }
