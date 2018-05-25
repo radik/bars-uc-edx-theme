@@ -222,9 +222,13 @@ ${HTML(fragment.foot_html())}
                 </main>
             </td>
             <td style="width: 40%">
-                % if outline_fragment:
-                  ${HTML(outline_fragment.body_html())}
-                % endif
+                <div class="info-wrapper">
+                  <section aria-label="Навигация по наглядным материалам" class="handouts">
+                    % if outline_fragment:
+                      ${HTML(outline_fragment.body_html())}
+                    % endif
+                  </section>
+                </div>
             </td>
           </tr>
         </table>
